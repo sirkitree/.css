@@ -1,0 +1,157 @@
+/** Project issues */
+.project-issue tr {
+    display: block;
+    border-left: 1px solid #EAEAEA;
+    border-right: 1px solid #EAEAEA;
+    border-bottom: 1px solid #EAEAEA;
+    padding: 8px;
+}
+
+.project-issue td {
+    display: inline;
+    border-bottom: none;
+}
+
+.project-issue thead,
+.project-issue td.views-field-sid,
+.project-issue td.views-field-priority,
+.project-issue td.views-field-category,
+.project-issue td.views-field-changed,
+.project-issue td.views-field-name,
+.project-issue td.views-field-created,
+.project-issue td.views-field-last-comment-timestamp,
+.project-issue td.views-field-comment-count a,
+.project-issue td.views-field-comment-count br,
+.project-issue td span.marker {
+    display: none;
+}
+
+.views-field-project-issue-queue:after {
+    content: "»";
+}
+
+td.views-field-comment-count {
+    display: inline-block;
+    float: right;
+    font-size: 11px;
+    width: 10%;
+}
+
+.views-field-comment-count:after {
+    content: " comments";
+}
+
+body .project-issue {
+    width: 100%;
+    border: 1px solid #D8D8D2;
+    border-radius: 5px;
+}
+
+body .project-issue tr.odd,
+body .project-issue tr.even {
+    border-bottom: 1px solid #D8D8D2;
+}
+
+.project-issue tr td,
+.project-issue tr td.active {
+    border-bottom: none;
+    vertical-align: middle;
+}
+
+.project-issue tr.state-1 td,
+.project-issue tr.state-2 td,
+.project-issue tr.state-3 td,
+.project-issue tr.state-4 td,
+.project-issue tr.state-5 td,
+.project-issue tr.state-6 td,
+.project-issue tr.state-7 td,
+.project-issue tr.state-8 td,
+.project-issue tr.state-9 td,
+.project-issue tr.state-10 td,
+.project-issue tr.state-11 td,
+.project-issue tr.state-12 td,
+.project-issue tr.state-13 td,
+.project-issue tr.state-14 td,
+.project-issue tr.state-15 td {
+    background-color: transparent;
+    border-top: none;
+}
+
+.project-issue td.views-field-sid,
+.project-issue td.views-field-component,
+.project-issue td.views-field-version {
+    display: inline-block;
+    font-size: 11px;
+    padding: 1px 4px;
+    -webkit-font-smoothing: antialiased;
+    border-radius: 2px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-issue tr.state-1 td.views-field-sid {
+    background-color: #CCC;
+}
+
+.project-issue tr.state-2 td.views-field-sid {
+    background-color: #A8FF98;
+}
+
+.project-issue tr.state-4 td.views-field-sid {
+    background-color: #B5C4FE;
+}
+
+.project-issue tr.state-8 td.views-field-sid {
+    background-color: #FFCF73;
+}
+
+.project-issue tr.state-13 td.views-field-sid {
+    background-color: #FFDCCD;
+}
+
+.project-issue tr.state-14 td.views-field-sid {
+    background-color: #BCFFB3;
+}
+
+.project-issue tr.state-15 td.views-field-sid {
+    background-color: #BCFFB3;
+}
+
+.project-issue td a,
+.project-issue td a:link,
+.project-issue td a:visited,
+.project-issue td a:active {
+    color: #000;
+}
+
+.project-issue td.views-field-project-issue-queue a,
+.project-issue td.views-field-project-issue-queue a:link,
+.project-issue td.views-field-project-issue-queue a:visited,
+.project-issue td.views-field-project-issue-queue a:active {
+    color: #888;
+    font-size: 11px;
+}
+
+body .project-issue tr.odd {
+    background-color: #F9F9F9;
+}
+
+.project-issue td.views-field-component {
+    color: #ccc;
+    font-weight: normal;
+}
+
+.project-issue tr td.views-field-version {
+    border: 1px solid #B5C4FE;
+    border-top: 1px solid #B5C4FE;
+    font-weight: normal;
+    color: #ccc;
+}
+
+.project-issue tr td.views-field-title {
+    max-width: 550px;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+}
+

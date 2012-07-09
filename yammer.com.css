@@ -1,0 +1,37 @@
+div.yj-avatar img {
+    border: 1px solid #D0D0D0;
+    padding: 2px;
+    width: 41px;
+    height: 41px;
+}
+
+.yj-thread-reply-list-item .yj-avatar-thumb {
+    width: 26px;
+    height: 26px;
+}
+
+body {
+    font-family: Helvetica, "Lucida Grande", Verdana, Arial, sans-serif;
+    color: #444;
+    font-size: 13px;
+}
+
+.yj-thread-reply-list-item .yj-message-container,
+.yj-thread-replies .yj-unread .yj-message-container {
+    font-size: 12px;
+}
+
+.yj-byline> .yj-hovercard-link,
+.yj-byline a.yj-in-reply-to,
+#sidebar-suggestions-container {
+    display: none;
+}
+
+.yj-thread-reply-list-item .yj-reply-to-thread-starter .yj-in-reply-to-user {
+    display: inline;
+}
+
+.yj-byline a.yj-in-reply-to-user::before {
+    content: "♻ ";
+}
+

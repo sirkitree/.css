@@ -1,0 +1,29 @@
+article.article-teaser .article-content {
+    min-height: 350px;
+}
+
+article.article-teaser .article-content p img {
+    width: 75px;
+    float: right;
+}
+
+article.article-teaser .article-content .field-item> p:nth-of-type(2) img {
+    width: 200px;
+    float: left;
+}
+
+article.article-teaser .article-content .field-item> p img {
+    display: inline-block;
+}
+
+/** book nav **/
+
+.region-sidebar-second ul li {
+    border-bottom: 1px solid #eee;
+    text-indent: 0px;
+}
+
+.region-sidebar-second ul li a {
+    font-size: 11px;
+}
+
