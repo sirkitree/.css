@@ -21,19 +21,20 @@ body {
     font-size: 12px;
 }
 
-.yj-byline > .yj-hovercard-link,
-.yj-byline a.yj-in-reply-to,
+.yj-byline a:first-child,
+.yj-byline .yj-in-reply-to,
 #sidebar-suggestions-container {
     display: none;
 }
 
 
-.yj-thread-reply-list-item .yj-in-reply-to-user {
+.yj-thread-reply-list-item .yj-in-reply-to-user,
+.yj-thread-reply-list-item .yj-reply-to-thread-starter .yj-in-reply-to-user {
     display: inline;
 }
 
 
-.yj-byline a.yj-in-reply-to-user::before {
+.yj-byline .yj-in-reply-to-user::before,
+.yj-thread-reply-list-item .yj-reply-to-thread-starter .yj-in-reply-to-user::before {
     content: "♻ ";
 }
-
