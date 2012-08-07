@@ -1,3 +1,8 @@
+#masthead-container {
+    background: -webkit-linear-gradient(top, #FAFAFA, #EAEAEA);
+    border-bottom: 1px solid #CACACA;
+}
+
 div.yj-avatar img {
     border: 1px solid #D0D0D0;
     padding: 2px;
