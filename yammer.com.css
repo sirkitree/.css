@@ -31,8 +31,11 @@ body {
 
 .yj-byline a:first-child,
 .yj-byline .yj-in-reply-to,
-#sidebar-suggestions-container {
-    display: none;
+#sidebar-suggestions-container,
+.yj-activity-ticker,
+#sidebar div:nth-child(7),
+#online-now {
+    display: none !important;
 }
 
 
