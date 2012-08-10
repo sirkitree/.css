@@ -14,7 +14,10 @@ div.yj-avatar img {
     width: 26px;
     height: 26px;
 }
-
+.legibility .yj-thread-starter .yj-message-container .yj-byline,
+.legibility .yj-thread-starter .yj-message-body .yj-message,
+.legibility .yj-message .expand-body,
+.legibility .yj-message .collapse-body,
 body {
     font-family: Helvetica, "Lucida Grande", Verdana, Arial, sans-serif;
     color: #444;
