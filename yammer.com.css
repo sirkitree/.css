@@ -34,6 +34,7 @@ body {
 #sidebar-suggestions-container,
 .yj-activity-ticker,
 #sidebar div:nth-child(7),
+#sidebar .ir-modules,
 #online-now {
     display: none !important;
 }
