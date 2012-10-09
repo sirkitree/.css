@@ -70,20 +70,30 @@ body {
     display: inline;
 }
 
-
+/** Use the recyle symbol in place of 'in reply to' **/
 .yj-byline .yj-in-reply-to-user::before,
 .yj-thread-reply-list-item .yj-reply-to-thread-starter .yj-in-reply-to-user::before {
     content: "♻ ";
 }
 
+/** Move the sidebar to the right **/
 .two-column-layout .column {
     float: right;
 }
+
+/** Increase width of content area **/
 .two-column-layout .column-two-left {
     width: 760px;
     padding-right: 20px;
 }
 
+/** Remove background now that menu is on the right **/
 .two-column-layout, .three-column-layout {
     background: none;
+}
+
+/** Since the menu is now on the right, swap the border-radius **/
+.yj-nav-menu .yj-selected .nav-list-link,
+.yj-nav-menu .nav-list-link:hover {
+    border-radius: 0 3px 3px 0;
 }
