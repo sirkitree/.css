@@ -4,10 +4,33 @@
 }
 
 div.yj-avatar img {
-    border: 1px solid #D0D0D0;
-    padding: 2px;
-    width: 41px;
-    height: 41px;
+    border-radius: 3px;
+}
+
+.yj-thread-starter div.yj-message-body {
+    padding: 3px;
+    background: #EEE;
+    border-radius: 3px;
+}
+
+.yj-thread-starter div.yj-message-body::before {
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    border: 10px solid #EEE;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #EEE transparent transparent;
+    position: absolute;
+    left: 50px;
+    top: 15px;
+}
+
+.yj-thread-starter .yj-message {
+    min-height: 60px;
+    border: 1px solid #CACACA;
+    background-color: #FFF;
+    padding: 10px;
 }
 
 .yj-thread-reply-list-item .yj-avatar-thumb {
