@@ -48,6 +48,10 @@ body {
     font-size: 13px;
 }
 
+body {
+    background: #F2F2F2 url(http://atendesigngroup.com/sites/all/themes/aten/images/bg-light.png);
+}
+
 .yj-thread-reply-list-item .yj-message-container,
 .yj-thread-replies .yj-unread .yj-message-container {
     font-size: 12px;
