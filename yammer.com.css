@@ -58,7 +58,8 @@ body {
 .yj-activity-ticker,
 #sidebar div:nth-child(7),
 #sidebar .ir-modules,
-#online-now {
+#online-now,
+#column-three {
     display: none !important;
 }
 
@@ -72,4 +73,16 @@ body {
 .yj-byline .yj-in-reply-to-user::before,
 .yj-thread-reply-list-item .yj-reply-to-thread-starter .yj-in-reply-to-user::before {
     content: "♻ ";
+}
+
+.two-column-layout .column {
+    float: right;
+}
+.two-column-layout .column-two-left {
+    width: 760px;
+    padding-right: 20px;
+}
+
+.two-column-layout, .three-column-layout {
+    background: none;
 }
