@@ -3,7 +3,8 @@
     border-bottom: 1px solid #CACACA;
 }
 
-div.yj-avatar img {
+div.yj-avatar img,
+div.yj-main-mugshot img {
     border-radius: 3px;
 }
 
