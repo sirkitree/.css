@@ -3,6 +3,12 @@
     border-bottom: 1px solid #CACACA;
 }
 
+/** Hide inbox icons **/
+#uni-messages,
+.yj-nav-menu .nav-list-link.private {
+    display: none;
+}
+
 div.yj-avatar img,
 div.yj-main-mugshot img {
     border-radius: 3px;
