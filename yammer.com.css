@@ -9,7 +9,8 @@
 #sidebar div:nth-child(7),
 #sidebar .ir-modules,
 #online-now,
-#column-three {
+#column-three,
+#yj-yam.ui.chat.ChatManager {
     display: none !important;
 }
 
@@ -70,7 +71,7 @@ body {
 
 .yj-thread-reply-list-item .yj-in-reply-to-user,
 .yj-thread-reply-list-item .yj-reply-to-thread-starter .yj-in-reply-to-user {
-    display: inline;
+    display: inline !important;
 }
 
 /** Use the recyle symbol in place of 'in reply to' **/
@@ -78,25 +79,23 @@ body {
 .yj-thread-reply-list-item .yj-reply-to-thread-starter .yj-in-reply-to-user::before {
     content: "♻ " !important;
 }
-.yj-byline .yj-in-reply-to-user,
-.yj-thread-reply-list-item .yj-reply-to-thread-starter .yj-in-reply-to-user {
-    display: inline !important;
-}
 
 /** Move the sidebar to the right **/
 .two-column-layout .column {
-    float: right;
+    float: right !important;
 }
 
-/** Increase width of content area **/
 .two-column-layout .column-two-left {
-    width: 760px;
-    padding-right: 20px;
+    left: -260px !important;
+}
+
+.two-column-layout #column-one {
+    left: -230px !important;
 }
 
 /** Remove background now that menu is on the right **/
 .two-column-layout, .three-column-layout {
-    background: none;
+    background: none !important;
 }
 
 /** Since the menu is now on the right, swap the border-radius **/
