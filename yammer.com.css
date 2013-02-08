@@ -1,12 +1,20 @@
-#masthead-container {
-    background: -webkit-linear-gradient(top, #FAFAFA, #EAEAEA);
-    border-bottom: 1px solid #CACACA;
+/** Hide stuff **/
+#masthead-container,
+#uni-messages,
+.yj-nav-menu .nav-list-link.private,
+.yj-byline a:first-child,
+.yj-byline .yj-in-reply-to,
+#sidebar-suggestions-container,
+.yj-activity-ticker,
+#sidebar div:nth-child(7),
+#sidebar .ir-modules,
+#online-now,
+#column-three {
+    display: none !important;
 }
 
-/** Hide inbox icons **/
-#uni-messages,
-.yj-nav-menu .nav-list-link.private {
-    display: none;
+body {
+    margin-top: -57px !important;
 }
 
 div.yj-avatar img,
@@ -44,6 +52,7 @@ div.yj-main-mugshot img {
     width: 26px;
     height: 26px;
 }
+
 .legibility .yj-thread-starter .yj-message-container .yj-byline,
 .legibility .yj-thread-starter .yj-message-body .yj-message,
 .legibility .yj-message .expand-body,
@@ -54,26 +63,10 @@ body {
     font-size: 13px;
 }
 
-body {
-    background: #F2F2F2 url(http://atendesigngroup.com/sites/all/themes/aten/images/bg-light.png);
-}
-
 .yj-thread-reply-list-item .yj-message-container,
 .yj-thread-replies .yj-unread .yj-message-container {
     font-size: 12px;
 }
-
-.yj-byline a:first-child,
-.yj-byline .yj-in-reply-to,
-#sidebar-suggestions-container,
-.yj-activity-ticker,
-#sidebar div:nth-child(7),
-#sidebar .ir-modules,
-#online-now,
-#column-three {
-    display: none !important;
-}
-
 
 .yj-thread-reply-list-item .yj-in-reply-to-user,
 .yj-thread-reply-list-item .yj-reply-to-thread-starter .yj-in-reply-to-user {
@@ -83,7 +76,11 @@ body {
 /** Use the recyle symbol in place of 'in reply to' **/
 .yj-byline .yj-in-reply-to-user::before,
 .yj-thread-reply-list-item .yj-reply-to-thread-starter .yj-in-reply-to-user::before {
-    content: "♻ ";
+    content: "♻ " !important;
+}
+.yj-byline .yj-in-reply-to-user,
+.yj-thread-reply-list-item .yj-reply-to-thread-starter .yj-in-reply-to-user {
+    display: inline !important;
 }
 
 /** Move the sidebar to the right **/
