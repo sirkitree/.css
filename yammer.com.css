@@ -91,6 +91,7 @@ body {
 
 .two-column-layout #column-one {
     left: -230px !important;
+    z-index: 12;
 }
 
 /** Remove background now that menu is on the right **/
@@ -102,4 +103,14 @@ body {
 .yj-nav-menu .yj-selected .nav-list-link,
 .yj-nav-menu .nav-list-link:hover {
     border-radius: 0 3px 3px 0;
+}
+
+.yj-thread-replies-container .yj-thread-topics {
+    height: 33px;
+    padding: 0 10px 0 6px;
+    border-bottom: 1px solid #ccc;
+    background-color: #e1e1e1;
+    background-image: -webkit-linear-gradient(#f8f8f8, #e1e1e1);
+    background-repeat: repeat-x;
+    font-size: 12px;
 }
