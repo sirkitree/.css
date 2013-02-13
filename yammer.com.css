@@ -4,13 +4,8 @@
 .yj-nav-menu .nav-list-link.private,
 .yj-byline a:first-child,
 .yj-byline .yj-in-reply-to,
-#sidebar-suggestions-container,
 .yj-activity-ticker,
-#sidebar div:nth-child(7),
-#sidebar .ir-modules,
-#online-now,
-#column-three,
-#yj-yam.ui.chat.ChatManager {
+#online-now {
     display: none !important;
 }
 
@@ -59,9 +54,14 @@ div.yj-main-mugshot img {
 .legibility .yj-message .expand-body,
 .legibility .yj-message .collapse-body,
 body {
-    font-family: Helvetica, "Lucida Grande", Verdana, Arial, sans-serif;
-    color: #444;
+    color: rgb(51, 51, 51);       
+    font-family: Helvetica, arial, freesans, clean, sans-serif;
     font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    height: 40px;
+    line-height: 20px;
 }
 
 .yj-thread-reply-list-item .yj-message-container,
@@ -78,25 +78,6 @@ body {
 .yj-byline .yj-in-reply-to-user::before,
 .yj-thread-reply-list-item .yj-reply-to-thread-starter .yj-in-reply-to-user::before {
     content: "♻ " !important;
-}
-
-/** Move the sidebar to the right **/
-.two-column-layout .column {
-    float: right !important;
-}
-
-.two-column-layout .column-two-left {
-    left: -260px !important;
-}
-
-.two-column-layout #column-one {
-    left: -230px !important;
-    z-index: 12;
-}
-
-/** Remove background now that menu is on the right **/
-.two-column-layout, .three-column-layout {
-    background: none !important;
 }
 
 /** Since the menu is now on the right, swap the border-radius **/
