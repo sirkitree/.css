@@ -40,7 +40,7 @@ div.yj-main-mugshot img {
 .yj-thread-starter .yj-message {
     min-height: 60px;
     border: 1px solid #CACACA;
-    background-color: #FFF;
+    background-color: rgb(251, 251, 251);
     padding: 10px;
 }
 
@@ -62,6 +62,10 @@ body {
     font-weight: normal;
     height: 40px;
     line-height: 20px;
+}
+
+.two-column-layout .column-two-left {
+    width: 100% !important;
 }
 
 .yj-thread-reply-list-item .yj-message-container,
