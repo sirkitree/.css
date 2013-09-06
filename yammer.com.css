@@ -1,13 +1,19 @@
 /** Hide stuff **/
-#masthead-container,
 #uni-messages,
 .yj-nav-menu .nav-list-link.private,
 .yj-byline a:first-child,
 .yj-byline .yj-in-reply-to,
 .yj-activity-ticker,
-#online-now {
+#online-now,
+.yj-experiment-universal-publisher-ui,
+.yj-group-label, .yj-message-metadata  {
     display: none !important;
 }
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, q, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, textarea {
+    font-family: Helvetica !important;
+}
+
 
 body {
     margin-top: -57px !important;
@@ -99,3 +105,4 @@ body {
     background-repeat: repeat-x;
     font-size: 12px;
 }
+
